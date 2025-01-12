@@ -37,14 +37,6 @@ export default function CallToAction() {
                           <span className="w-1.5 h-1.5 bg-accent rounded-full mr-2"></span>
                           História interativa completa
                         </li>
-                        <li className="flex items-center">
-                          <span className="w-1.5 h-1.5 bg-accent rounded-full mr-2"></span>
-                          Atividades educativas
-                        </li>
-                        <li className="flex items-center">
-                          <span className="w-1.5 h-1.5 bg-accent rounded-full mr-2"></span>
-                          Jogos relacionados à história
-                        </li>
                       </ul>
                     </div>
                   </div>

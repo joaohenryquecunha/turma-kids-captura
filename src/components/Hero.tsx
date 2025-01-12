@@ -1,7 +1,6 @@
 import React from 'react';
 import { Sparkles, PlayCircle, Star } from 'lucide-react';
 import ScrollAnimation from './ScrollAnimation';
-import Carousel from './Carousel';
 
 export default function Hero() {
   return (
@@ -27,17 +26,24 @@ export default function Hero() {
             <p className="max-w-2xl text-xl text-gray-300">
               Junte-se a milhares de crianças felizes em uma jornada emocionante de descoberta, criatividade e diversão!
             </p>
-          </div>
-        </ScrollAnimation>
 
-        <ScrollAnimation delay={0.4}>
-          <div className="mt-16 mb-16">
-            <Carousel />
+            <div className="w-full max-w-4xl mx-auto mt-8">
+              <div className="relative pt-[56.25%]">
+                <iframe
+                  className="absolute inset-0 w-full h-full rounded-2xl shadow-2xl"
+                  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                  title="Turma Kids - Aprendizado Divertido para Crianças"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation delay={0.6}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16">
             {[
               {
                 icon: <Star className="w-8 h-8 text-accent" />,

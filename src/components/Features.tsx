@@ -11,7 +11,7 @@ export default function Features() {
     },
     {
       icon: <Gamepad2 className="w-8 h-8 text-secondary" />,
-      title: "Jogos Educativos",
+      title: "PDFs Educativos",
       description: "Aprenda brincando com jogos divertidos"
     },
     {
